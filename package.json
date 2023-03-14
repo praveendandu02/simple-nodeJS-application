@@ -1,0 +1,19 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "my-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveendandu02/simple-nodeJS-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveendandu02/simple-nodeJS-application/issues"
+  },
+  "homepage": "https://github.com/praveendandu02/simple-nodeJS-application#readme"
+}
