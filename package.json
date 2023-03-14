@@ -1,17 +1,12 @@
 {
-  "name": "my-app",
-  "version": "1.0.0",
-  "description": "my-app",
-  "main": "index.js", 
-  "scripts": {
-    "test": "mocha"
-  },
-  "dependencies": {
-    // Add your project dependencies here
-  },
-  "devDependencies": {
-    "mocha": "^9.2.0"
-  },
+"name": "docker-test",
+"version": "1.0.0",
+"description": "",
+"main": "app.js",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/praveendandu02/simple-nodeJS-application.git"
