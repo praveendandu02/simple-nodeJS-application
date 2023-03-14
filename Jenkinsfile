@@ -1,8 +1,4 @@
 node {
-    // Use the NodeJS tool to set up the environment for NodeJS
-    def nodeJSInstallation = tool 'nodejs'
-    env.PATH = "${nodeJSInstallation}/bin:${env.PATH}"
-
     stage('Checkout') {
         // Check out the source code for this project
         git url: 'https://github.com/praveendandu02/simple-nodeJS-application',
@@ -10,11 +6,8 @@ node {
     }
 
     stage('Build and test') {
-        // Install dependencies and run tests using the NodeJS environment
-        withNodeJS(nodeJSInstallation) {
-            sh 'npm install'
-            sh 'npm test'
-        }
+        sh 'npm install'
+        sh 'npm test'
     }
 
     stage('Build Docker image') {
