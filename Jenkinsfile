@@ -1,7 +1,8 @@
 node {
     stage('Checkout') {
         // Check out the source code for this project
-        git url: 'https://github.com/praveendandu02/simple-nodeJS-application'
+        git url: 'https://github.com/praveendandu02/simple-nodeJS-application',
+            branch: 'feature/deploy-app-01'
     }
 
     stage('Build and test') {
