@@ -4,9 +4,12 @@
 "description": "",
 "main": "app.js",
 "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node app.js"
 },
+"devDependencies": {
+    "mocha": "^9.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/praveendandu02/simple-nodeJS-application.git"
